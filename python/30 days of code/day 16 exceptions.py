@@ -22,7 +22,7 @@ import sys
 S = input().strip()
 
 try:
-    
+    is_int = int(S)
     print(is_int)
 except ValueError:
     print("Bad String")
